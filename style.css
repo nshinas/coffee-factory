@@ -60,3 +60,138 @@ button{
     border-radius: 15px;
     font-weight: bold;
 }
+.base-main {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.subtitle {
+    color: #C5A880;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.head-2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.center {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.center img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #777;
+    font-size: 14px;
+    line-height:1.6;
+}
+.coffee-list{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #C5A880;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.coffee-item {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.coffee-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.coffee-item h3 {
+    color: #aaa;
+    font-size: 12px;
+    margin: 10px 0 5px;
+}
+
+.coffee-item p {
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.prev, .next {
+    background-color: #f5f5f5;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: -30px;
+}
+
+.next {
+    right: -30px;
+}
+
+.shop-btn {
+    background-color: #18321e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
