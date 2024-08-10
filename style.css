@@ -32,7 +32,7 @@ nav{
     text-decoration: underline;
     color: rgb(110, 86, 7);
 }
-.home-main{
+#home-main{
     background-image: url(images/WhatsApp\ Image\ 2024-08-09\ at\ 10.42.43_c97675e0.jpg);
     background-size: cover;
     background-position: center;
@@ -60,7 +60,7 @@ button{
     border-radius: 15px;
     font-weight: bold;
 }
-.base-main {
+#base-main {
     text-align: center;
     padding: 20px;
     max-width: 1200px;
@@ -194,4 +194,96 @@ h2 {
     letter-spacing: 1px;
     margin-top: 20px;
     border-radius: 10px;
+}
+#coffee-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    flex: 1;
+}
+
+.coffee-image {
+    margin-left: 75px;
+    width: 50%;
+    height: auto;
+}
+
+.text-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.text-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #18321e;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.read-more:hover {
+    background-color: #5c1e06;
+}
+section {
+    padding: 50px;
+    text-align: center;
+}
+.products .product img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+.blog .blog-posts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog article {
+    width: 30%;
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+}
+
+footer {
+    background: #18321e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+html{
+    scroll-behavior: smooth;
 }

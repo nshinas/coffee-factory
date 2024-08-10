@@ -6,6 +6,13 @@
     <title>coffee factory</title>
     <!-- link to css -->
      <link rel="stylesheet" href="style.css">
+     <!-- animation cdn link -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <!-- aos animation link -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
         <div id="container">
@@ -15,22 +22,22 @@
                  <img src="images/vecteezy_coffee-shop-logo_23617247.png" alt="logo" class="logo">
                  <!-- list -->
                  <ul>
-                    <li class="listitems"><a class="links" href="">HOME</a></li>
-                    <li class="listitems"><a class="links" href="">PRODUCTS</a></li>
-                    <li class="listitems"><a class="links" href="">BLOG</a></li>
+                    <li class="listitems"><a class="links" href="#base-main">HOME</a></li>
+                    <li class="listitems"><a class="links" href="#coffee-listmain">PRODUCTS</a></li>
+                    <li class="listitems"><a class="links" href="#coffee-blog">BLOG</a></li>
                     <li class="listitems"><a class="links" href="">TESTIMONIALS</a></li>
                   </ul>
               </nav>
               <!-- home -->
-               <div class="home-main">
+               <div id="home-main">
                 <div class="home">
-                    <h1>Elite Coffe Brands</h1>
+                    <h1 class="animate__animated animate__flash">Coffee factory</h1>
                     <p>Coffee Shop is the place where you can get flavorful coffee strains from global elite brands and roasters at very affordable price.</p>
                     <button>Read More</button>
                 </div>
                </div>
                <!-- Base -->
-               <div class="base-main">
+               <div id="base-main">
                 <p class="subtitle">What Happens Here</p>
                 <h1 class="head-2">COFFEE BUILD YOUR BASE.</h1>
                 <div class="content">
@@ -68,7 +75,7 @@
                 </div>
             </div>
             <!-- product -->
-            <section class="coffee-listmain">
+            <section id="coffee-listmain">
                 <div class="coffee-list">
                     <h2>OUR-PRODUCTS</h2>
                     <div class="carousel">
@@ -101,6 +108,47 @@
                     <button class="shop-btn">MORE</button>
                 </div>
             </section>
+            <!-- coffee-blog -->
+                <div id="coffee-blog">
+                    <div class="image-section">
+                        <img src="images/coffee-removebg-preview.png" alt="Coffee cup with latte art" class="coffee-image">
+                    </div>
+                    <div class="text-section">
+                        <h1>The knowledge behind how to process coffee</h1>
+                        <p>A coffee bean is actually a seed. When dried, roasted and ground, it's used to brew coffee. If the seed isn't processed, it can be planted and grow into a coffee tree.</p>
+                        <p>Coffee seeds are generally planted in large beds in shaded nurseries. The seedlings will be watered frequently and shaded from bright sunlight until they are hearty enough to be permanently planted. Planting often takes place during the wet season, so that the soil remains moist while the roots become firmly established.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <!-- testimonials and footer -->
+                <section class="blog">
+                    <h2>The Coffee Blog</h2>
+                    <div data-aos="zoom-in-up" class="blog-posts">
+                        <article>
+                            <h3>Brewing Guide</h3>
+                            <p>Learn the best techniques to brew your coffee.</p>
+                        </article>
+                        <article>
+                            <h3>Coffee Maker Reviews</h3>
+                            <p>Find the best coffee makers on the market.</p>
+                        </article>
+                        <article>
+                            <h3>Coffee Recipes</h3>
+                            <p>Discover new and exciting coffee recipes.</p>
+                        </article>
+                    </div>
+                </section>
+                <footer>
+                    <div class="footer-content">
+                        <p>Opening Hours: Mon-Fri 8:00-18:00, Sat-Sun 10:00-16:00</p>
+                        <p>Contact Us: info@coffeefactory.com</p>
+                    </div>
+                </footer>
         </div>
 </body>
+<!-- aos animation link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
